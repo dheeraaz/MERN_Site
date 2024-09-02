@@ -39,7 +39,7 @@ MERN_Site is a full-stack web application built using the MERN stack (MongoDB, E
 6. Run the application
 - Run the server
    ```bash
-   cd Backend
+   cd ../Backend
    npm run start
 - Start the client
   ```bash
