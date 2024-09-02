@@ -5,10 +5,10 @@ class apiError extends Error {
     errors = "",
     stack = ""
   ) {
-    super(message);
+    super(message); //using the constructor of parent: Error class to set the value of error message
     this.statusCode = statusCode;
     this.message = message;
-    this.errors = errors;
+    // this.errors = errors; //this line is reduntant
     this.data = null;
     this.success = false;
 
