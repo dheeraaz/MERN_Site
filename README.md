@@ -19,6 +19,14 @@ MERN_Site is a full-stack web application built using the MERN stack (MongoDB, E
 - **Database**: MongoDB, Mongoose
 - **Authentication**: JWT (JSON Web Tokens)
 
+## For Testing
+- **User Account**:
+  - ID: check@check.com
+  - PW: check9847
+- **Admin Account**:
+  - ID: admin@admin.com
+  - PW: admin9847
+
 ## Installation and Setup
 1. Clone the repository:
    ```bash
