@@ -20,6 +20,9 @@ MERN_Site is a full-stack web application built using the MERN stack (MongoDB, E
 - **Authentication**: JWT (JSON Web Tokens)
 
 ## For Testing
+- **Step 1** :
+  - Run the Backend(untill you see: "home route") : https://mern-site-backend-1114.onrender.com
+  - Then open the Frontend: https://mern-site-frontend.onrender.com
 - **User Account**:
   - ID: check@check.com
   - PW: check9847
