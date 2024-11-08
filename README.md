@@ -21,8 +21,8 @@ MERN_Site is a full-stack web application built using the MERN stack (MongoDB, E
 
 ## For Testing
 - **Step 1** :
-  - Run the Backend(untill you see: "home route") : https://mern-site-backend-1114.onrender.com
-  - Then open the Frontend: https://mern-site-frontend.onrender.com
+  - Run the <a href="https://mern-site-backend-1114.onrender.com/" target="_blank">Backend</a> (untill you see: "home route")
+  - Then open the <a href="https://mern-site-frontend.onrender.com" target="_blank">Frontend</a>
 - **User Account**:
   - ID: check@check.com
   - PW: check9847
