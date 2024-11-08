@@ -77,7 +77,7 @@ const editUser = asyncHandler(async (req, res) => {
         existingUser.email === email &&
         existingUser.phone === phone
     ) {
-        throw new apiError(400, "No changes made");
+        throw new apiError(400, "No changes made");  //idempotency
     }
 
 

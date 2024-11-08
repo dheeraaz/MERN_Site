@@ -61,6 +61,7 @@ const userRegister = asyncHandler(async (req, res) => {
     httpOnly: true,
     // secure: true,
     secure: process.env.NODE_ENV === "production", // only true in production
+    sameSite: "None",
   };
 
   const accessToken = createdUser.generateAccessToken();
@@ -97,6 +98,7 @@ const userLogin = asyncHandler(async (req, res) => {
   const option = {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production", // only true in production
+    sameSite: "None",
   };
 
   const accessToken = loggedInUser.generateAccessToken();
@@ -114,6 +116,7 @@ const userLogout = asyncHandler(async (req, res) => {
   const option = {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production", // only true in production
+    sameSite: "None",
   };
 
   return res

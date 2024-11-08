@@ -65,7 +65,7 @@ const AdminContact = () => {
             <tr key={index} className='mt-2 w-full flex items-center justify-between gap-4 max-h-[48px] border-b-[1px] hover:rounded-md border-gray-300 hover:bg-gray-300'>
               <td className='w-full'>{contact.username}</td>
               <td className='w-full'>{contact.email}</td>
-              <td className='w-full max-w-[400px] max-h-[36px] overflow-y-scroll _scrollbar'>{contact.message}</td>
+              <td className='w-full max-w-[400px] max-h-[36px] overflow-y-auto _scrollbar'>{contact.message}</td>
               <td className='min-w-[120px]'> <button onClick={() => deleteContact(contact._id)} className='px-4 py-1 bg-red-600 rounded-md border-2 border-transparent text-white hover:border-red-600 hover:bg-transparent hover:text-black hover:font-semibold'>Delete</button> </td>
             </tr>
           )}
