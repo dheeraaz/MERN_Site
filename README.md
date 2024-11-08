@@ -13,6 +13,12 @@ MERN_Site is a full-stack web application built using the MERN stack (MongoDB, E
 - **React Router DOM**: Used for multi-page navigation.
 - **Context API**: Employed for state management across the application.
 
+## Technologies Used
+- **Frontend**: React, Context API, React Router DOM
+- **Backend**: Node.js, Express
+- **Database**: MongoDB, Mongoose
+- **Authentication**: JWT (JSON Web Tokens)
+
 ## Installation and Setup
 1. Clone the repository:
    ```bash
@@ -50,9 +56,3 @@ MERN_Site is a full-stack web application built using the MERN stack (MongoDB, E
 - **Client-side**: Visit http://localhost:5173 to access the web application.
 - **Register**: First Register as normal user, and if you are admin, go to your mongodb database and edit yourself in `users collections` as:- `isAdmin: true` 
 - **Admin Panel**: After logging in as an admin, an additional admin option will be available in the navbar.
-
-## Technologies Used
-- **Frontend**: React, Context API, React Router DOM
-- **Backend**: Node.js, Express
-- **Database**: MongoDB, Mongoose
-- **Authentication**: JWT (JSON Web Tokens)
